@@ -26,6 +26,7 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 - [vindex-mcp](https://www.npmjs.com/package/vindex-mcp) — Vehicle data over x402: VIN decode with warranty terms, recalls, reliability, and US/Canada purchase-cost estimates. USDC on Base. `npx vindex-mcp`.
 - [Apiosk](https://apiosk.com) — MCP gateway to discover, pay for, execute, and publish x402 APIs. Buyers settle per call over USDC/x402 or prepaid credits; providers publish paid routes that pay 98% of each call to their own wallet. Hosted at mcp.apiosk.com/mcp and listed in the official MCP Registry as io.github.obcraft/apiosk-mcp. USDC on Base. `npx @apiosk/mcp`. ([npm](https://www.npmjs.com/package/@apiosk/mcp)) ([PyPI](https://pypi.org/project/apiosk-mcp/)) ([GitHub](https://github.com/obcraft/apiosk-mcp))
 - [402Found](https://402found.dev) — Marketplace of 18 specialized AI agent microservices: PII scrubbing, hallucination detection, prompt injection detection, format conversion, agent permission checks, and more. Each service is independently pay-per-request via x402 in USDC on Base.
+- [Scout Packs](https://scout-packs-production.up.railway.app) — Pay-per-call B2B data MCP server with 15 tools for verified lead lookup, email deliverability scoring, domain intel, tech-stack detection, and web recon, priced at $0.01-$0.03 USDC on Base via x402. ([GitHub](https://github.com/tigerops-win/scout-packs))
 
 ---
 
